@@ -1,0 +1,12 @@
+<h1>bonjour</h1>
+<div class="banner question">
+<p><%= params[:question] %></p>
+<p> <em>- You</em> </p>
+</div>
+<br>
+<div class="banner answer">
+<p><%= @answer %></p>
+<p><em>- The Coach</em></p>
+</div>
+<br>
+<%= link_to 'Back to question', ask_path %>
